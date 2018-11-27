@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>pag-2</title>
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/pag-2-grid.css">
+  <link rel="stylesheet" href="css/pag-2.css">
+
+  <style type="text/css">
+  .fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+  </style>
+
+<script type="text/javascript">
+  var url_string = window.location.href;
+var url = new URL(url_string);
+var c = url.searchParams.get("search");
+console.log(c)
+
+
+
+
+
+
+
+
+window.onload = function() {
+query = "location.href='codes.html?search="+ c + "';"
+
+
+document.getElementById("page3").setAttribute("onclick", query);
+
+  document.getElementById("output1").innerHTML = c;
+  document.getElementById("output2").innerHTML = c;
+
+
+}
+
+
+</script>
+
+
+</head>
+
+<body class="body page-pag-2 clearfix">
+
+  <p class="text text-1"><font color="#ffffff"><b><i><a>&nbsp;Suggest</a></i></b></font></p>
+  <div class="element element-1"></div>
+
+  <form id="form_search" name="form_search" method="get" action="pag-2.html">
+   <div class="form-group">
+
+
+      <input class="_input" id="search" placeholder="Procure por..." type="search" name="search" size="10" autofocus>
+      <button id="submit" value="submit" class="element text text-4" type="submit">Procurar</button>
+      
+
+
+  </div>
+</form>
+
+  <div style="cursor:pointer" id="page3" class="container clearfix">
+  <div class="text text-2">
+  <h5 id="output1"></h5>
+  Faria Lima &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  </div>
+
+
+    <div class="element element-2"></div>
+    <p class="text text-3">&nbsp; &nbsp;Distância: 2 km</p>
+    <div class="text text-4">
+    <h5 id="output2"></h5>
+    Paulista &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    </div>
+
+
+    <div class="element element-3"></div>
+    <p class="text text-5">&nbsp; &nbsp;Distância: 4&nbsp;km</p>
+    <div class="fixed-top">
+<img style="cursor:pointer" src="../img/back.png" onclick="window.history.go(-1)" alt="back page" height="50" weight="50">
+</div> 
+  </div>
+</body>
+
+<script>
+</script>
+
+</html>

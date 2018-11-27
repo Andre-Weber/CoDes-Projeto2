@@ -1,0 +1,240 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
+}
+
+.image {
+  display: block;
+  height: auto;
+  overflow: hidden;
+}
+
+.element-1 {
+  border-radius: 500px;
+  background-color: rgb(222, 222, 222);
+}
+
+.element-10 {
+  margin: -44px 0 0 34%;
+  border-radius: 500px;
+  background-color: rgb(222, 222, 222);
+}
+
+.element-11 {
+  margin: 11px 0 0 39.75%;
+  border-radius: 500px;
+  background-color: rgb(222, 222, 222);
+}
+
+.element-2 {
+  border-radius: 500px;
+  background-color: rgb(222, 222, 222);
+}
+
+.element-3 {
+  border-radius: 500px;
+  background-color: rgb(222, 222, 222);
+}
+
+.element-4 {
+  border-radius: 1000000000000px;
+  background-color: rgb(42, 0, 74);
+}
+
+.element-5 {
+  border-radius: 1000000000000px;
+  background-color: rgb(255, 255, 255);
+}
+
+.element-6 {
+  border-radius: 1000000000000px;
+  background-color: rgb(255, 255, 255);
+}
+
+.element-7 {
+  background-color: rgb(219, 215, 215);
+}
+
+.element-8 {
+  background-color: rgb(157, 155, 155);
+}
+
+.element-9 {
+  background-color: rgb(42, 0, 74);
+}
+
+.image-1 {
+  width: 121px;
+}
+
+.image-2 {
+  width: 118px;
+}
+
+.image-3 {
+  width: 122px;
+}
+
+.image-4 {
+  margin: 29px 0 0 15.2%;
+}
+
+.text-1 {
+  color: rgb(0, 0, 0);
+}
+
+.text-2 {
+  color: rgba(0, 0, 0, 0.97);
+}
+
+.text-3 {
+  color: rgb(5, 5, 5);
+}
+
+.text-4 {
+  color: rgb(0, 0, 0);
+}
+
+.text-5 {
+  color: rgb(0, 0, 0);
+}
+
+.text-6 {
+  color: rgb(0, 0, 0);
+}
+
+.text-7 {
+  color: rgb(0, 0, 0);
+}
+
+.text-8 {
+  color: rgb(0, 0, 0);
+}
+
+.text a {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.text em {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: italic;
+  font-size: 2.5em;
+  font-weight: 700;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: #ffffff;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.text span {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-weight: 700;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.text-1 span {
+  font-style: normal;
+  font-size: 1.25em;
+  color: inherit;
+}
+
+.text-2 span {
+  font-style: normal;
+  font-size: inherit;
+  color: #000000;
+}
+
+.text-4 span {
+  font-style: normal;
+  font-size: inherit;
+  color: #060606;
+}
+
+.text-1 a,
+.text-5 a {
+  font-style: normal;
+  font-size: 1.25em;
+  font-weight: 700;
+  color: inherit;
+}
+
+.text-6 a {
+  font-style: inherit;
+  font-size: 2em;
+  font-weight: inherit;
+  color: #ffffff;
+}
+
+.text-7 a {
+  font-style: italic;
+  font-size: 3.75em;
+  font-weight: 700;
+  color: inherit;
+}
+
+.text-7 span {
+  font-style: italic;
+  font-size: 3.75em;
+  color: inherit;
+}
+
+.text-8 a {
+  font-style: normal;
+  font-size: inherit;
+  font-weight: 700;
+  color: inherit;
+}

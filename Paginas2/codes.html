@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>codes</title>
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/codes-grid.css">
+  <link rel="stylesheet" href="css/codes.css">
+
+  <style type="text/css">
+  .fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+  </style>
+
+
+
+  <script type="text/javascript">
+// var url_string = window.location.href;
+// var url = new URL(url_string);
+// var c = url.searchParams.get("search");
+
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('search');
+console.log(myParam)
+
+window.onload = function() {
+
+
+  document.getElementById("output1").innerHTML = myParam;
+
+}
+
+
+  </script>
+</head>
+<body class="body page-codes clearfix">
+  <p class="text text-1"><font color="#ffffff"><b><i><a>&nbsp; &nbsp; Suggest</a></i></b></font></p>
+  <div class="element element-1"></div>
+  <img class="image image-1" src="images/trem.png">
+  <div class="element element-2"></div>
+  <img class="image image-2" src="images/carro.png">
+  <div class="element element-3"></div>
+  <img class="image image-3" src="images/walk_539933.png">
+  <img class="image image-4" src="images/Mapa.PNG">
+  <p class="text text-2"><span>Distância</span>1,8km</p>
+  <p class="text text-3"><span>Ida</span><span>&nbsp;24 minutos</span></p>
+  <p class="text text-4"><span>&nbsp;Volta</span><span>&nbsp;25 minutos</span></p>
+  <div class="element element-4"></div>
+  <p class="text text-5">Permanência</p>
+  <div class="element element-5"></div>
+  <div class="element element-6"></div>
+  <div class="element element-7"></div>
+  <p class="text text-6"><a>Alameda dos Jurupis, 1335, Indianópolis</a></p>
+  <div class="element element-8"></div>
+  <p class="text text-7" id="output1"></p>
+  <div class="element element-9"></div>
+  <p class="text text-8"><a>Tempo total&nbsp;</a><a>1 hora e 20 min</a></p>
+  <div class="element element-10"></div>
+  <div class="fixed-top">
+<img style="cursor:pointer" src="../img/back.png" onclick="window.history.go(-1)" alt="back page" height="50" weight="50">
+</div>
+  <div class="element element-11"></div>
+</body>
+</html>
